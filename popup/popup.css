@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Popup Box */
+.popup-box {
+  width: 260px;
+  height: 300px;
+  padding: 20px;
+  background-color: #1d1a04;
+  /* border-radius: 10px; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header Styling */
+.header {
+  font-size: 1.3em;
+  color: #c4e51d;
+  font-weight: bold;
+  margin-top: -8px;
+  /* margin-right: 95px; */
+  text-align: center;
+}
+
+/* Button Styling */
+.analysis-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  background-color: #c4e51d;
+  color: #2a2d2d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.analysis-btn:hover {
+  background-color: #b3d81a;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.review-btn1 {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background-color: #c4e51d;
+  color: #2a2d2d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.review-btn1:hover {
+  background-color: #b3d81a;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Results Section */
+.results {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #c4e51d;
+}
+
+.review {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #c4e51d;
+}
+
+/* Separator Line */
+.separator {
+  height: 1.5px;
+  background-color: #e0e0e0;
+  width: 250px; /* Extend across the popup box */
+  text-align: center;
+}
+
+/* Link Styling */
+.maps-link {
+  display: inline-block;
+  margin: 15px 0;
+  color: #201f24;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border: 2px solid #d1e8e8;
+  border-radius: 50px;
+  padding: 8px;
+  background-color: #b3d81a;
+}
+
+.maps-link:hover {
+  color: #c4860c;
+  text-decoration: none;
+}
+
+
+

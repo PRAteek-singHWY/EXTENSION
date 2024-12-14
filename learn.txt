@@ -1,0 +1,10 @@
+// open closed curly braces for json
+
+
+Script Contexts
+1.Popup Context ->  if we have a html file for our chrome extension pop up, and that pop up has a script part, then that javascript part will be executed in context of pop up
+if we try to access the DOM in this js file , then the document object that we get back will be the DOM of the UI for that pop up
+So not the webpage that the user is on but the webpage in the little pop up view
+
+2.Service Worker Context
+service worker is a javascript file that sits outside the 
